@@ -1,8 +1,8 @@
 import copy
-from abc import abstractmethod
+from abc import abstractmethod, ABC
 
 # prototype interface object
-class Prototype:
+class Prototype(ABC):
     type  = None
 
     @abstractmethod
